@@ -4,8 +4,7 @@ import Info from './components/Info.jsx'
 
 import './App.css'
 
-function App() {
+export default function App() {
   <Info />
 }
 
-export default App
