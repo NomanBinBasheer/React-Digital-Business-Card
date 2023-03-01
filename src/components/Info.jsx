@@ -8,7 +8,7 @@ export default function Info() {
     return (
         <section className="infoContainer">
             <div className="imgContainer">
-                <img src="me2.png" />
+                <img src="me3.png" />
             </div>
             <div className="headings">
                 <h1>Noman Bin Basheer</h1>

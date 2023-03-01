@@ -101,3 +101,18 @@ body{
     font-weight: 200;
     margin: 0.5rem 0;
 }
+.footerContainer{
+    background: #111113;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.socialIcons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color: #918E9B;
+}
+.socialIcons .icon{
+   font-size: 2.7rem;
+}
