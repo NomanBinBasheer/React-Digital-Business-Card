@@ -14,12 +14,13 @@ body{
     
 }
 #root{
-    width: 19%;
+    width: 250px;
+  
 }
 .container{
     border-radius: 10px;
     background: #161619;
-    
+    height: 100vh;
 }
 .infoContainer{
     text-align: center;
@@ -31,13 +32,13 @@ body{
     margin: 12px 0 0 0;
  }
  .infoContainer h4{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #F3BF99;
     margin: 0 0 0.9rem 0;
     font-weight: 200;
  }
  .infoContainer span a{
-    font-size: 10px;
+    font-size: 1.1rem;
     color: #F5F5F5;
     margin-top: 0;
     font-weight: 100;
@@ -59,11 +60,12 @@ body{
     align-items: center;
     width: 85%;
 }
-.socials div{
+.socials a{
     width: 39%;
     padding: 0.7rem 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
+    text-decoration: none;
 }
 .socials span{
     margin-left: 0.4rem;
@@ -78,7 +80,7 @@ body{
 }
 .email{
     background: white;
-    
+    color: #000;
 }
 .email span{
     color: #000;
@@ -106,6 +108,8 @@ body{
     display: flex;
     justify-content: center;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
+   border-bottom-right-radius: 10px;
 }
 .socialIcons{
     width: 80%;
@@ -113,6 +117,25 @@ body{
     justify-content: space-around;
     color: #918E9B;
 }
-.socialIcons .icon{
-   font-size: 2.7rem;
+.socialIcons a{
+    color: #918E9B;
 }
+.socialIcons .icon{
+   font-size: 2.3rem;
+   cursor: pointer;
+}
+
+
+/*  Media Queries */
+
+@media screen and (min-width: 1300px) {
+    #root{
+        width: 19%;
+    }
+  }
+
+  @media screen and (max-width: 396px) {
+    #root{
+        width: 100%;
+    }
+  }

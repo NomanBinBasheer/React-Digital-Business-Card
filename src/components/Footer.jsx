@@ -11,10 +11,10 @@ export default function Footer(){
    return(
      <footer className="footerContainer">
         <div className="socialIcons">
-           <span><FontAwesomeIcon icon={faTwitterSquare} className = "icon"/></span>
-           <span><FontAwesomeIcon icon={faFacebookSquare} className = "icon"/></span>
-           <span><FontAwesomeIcon icon={faInstagramSquare} className = "icon"/></span>
-           <span><FontAwesomeIcon icon={faGithubSquare} className = "icon"/></span>
+           <a href="https://twitter.com/NBBTheCoder" target="blank"><FontAwesomeIcon icon={faTwitterSquare} className = "icon"/></a >
+           <a href="#"><FontAwesomeIcon icon={faFacebookSquare} className = "icon"/></a >
+           <a href="https://www.instagram.com/nomanbinbasheer/" target="blank"><FontAwesomeIcon icon={faInstagramSquare} className = "icon"/></a >
+           <a href="https://github.com/NomanBinBasheer" target="blank"><FontAwesomeIcon icon={faGithubSquare} className = "icon"/></a >
         </div>
      </footer>
    ) 

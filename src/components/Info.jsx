@@ -16,8 +16,8 @@ export default function Info() {
                 <span><a href="https://nomanbinbasheer.netlify.app/" target="blank">nomanbinbasheer.netlify.app</a></span>
             </div>
             <section className="socials">
-                <div className="email"><FontAwesomeIcon icon={faEnvelope} className = "icon"/> <span>Email</span></div>
-                <div className="linkedin"><FontAwesomeIcon icon={faLinkedin} className = "icon"/> <span>LinkedIn</span></div>  
+                <a className="email" href="#"><FontAwesomeIcon icon={faEnvelope} className = "icon"/> <span>Email</span></a>
+                <a className="linkedin" href="https://www.linkedin.com/in/nomanbinbasheer/" target="blank"><FontAwesomeIcon icon={faLinkedin} className = "icon"/> <span>LinkedIn</span></a>  
             </section>
         </section>
     )
