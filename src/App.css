@@ -1,5 +1,5 @@
 html{
-    font-size: 62.5%;
+    font-size: 82.5%;
 }
 
 body{
@@ -14,13 +14,11 @@ body{
     
 }
 #root{
-    width: 250px;
-  
+    width: 400px;
 }
 .container{
     border-radius: 10px;
     background: #161619;
-    height: 100vh;
 }
 .infoContainer{
     text-align: center;
@@ -128,11 +126,11 @@ body{
 
 /*  Media Queries */
 
-@media screen and (min-width: 1300px) {
+/* @media screen and (min-width: 1300px) {
     #root{
         width: 19%;
     }
-  }
+  } */
 
   @media screen and (max-width: 396px) {
     #root{
