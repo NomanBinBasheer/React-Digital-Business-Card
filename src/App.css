@@ -132,7 +132,7 @@ body{
     }
   } */
 
-  @media screen and (max-width: 398px) {
+  @media screen and (max-width: 397px) {
     #root{
         width: 100%;
     }
